@@ -2,12 +2,10 @@ stages:
   build:
     buildTool: "mta"
     buildToolVersion: "MBTJ17N18"
-    mavenExecuteStaticCodeChecks: false
-    npmExecuteLint: false
-  release:
-    tmsUpload: true
 
 steps:
+  mavenExecuteStaticCodeChecks: false
+  npmExecuteLint: false
   tmsUpload:
     nodeName: 'TEST'
     credentialsId: 'TMS_TRAIL_Account'
