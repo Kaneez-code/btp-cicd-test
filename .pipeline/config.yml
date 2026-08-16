@@ -1,11 +1,9 @@
-general:
-  buildTool: "mta"
-
 stages:
-  Build:
+  build:
+    buildTool: "mta"
     mavenExecuteStaticCodeChecks: false
     npmExecuteLint: false
-  Release:
+  release:
     tmsUpload: true
 
 steps:
