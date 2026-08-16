@@ -1,6 +1,7 @@
 stages:
   build:
     buildTool: "mta"
+    buildToolVersion: "latest"
     mavenExecuteStaticCodeChecks: false
     npmExecuteLint: false
   release:
