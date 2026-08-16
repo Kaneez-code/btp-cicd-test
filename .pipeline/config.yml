@@ -11,5 +11,5 @@ stages:
 steps:
   tmsUpload:
     nodeName: 'TEST'
-    credentialsId: 'tms'
+    credentialsId: 'TMS_TRAIL_Account'
     customDescription: 'Pipeline Upload to TEST Node'
