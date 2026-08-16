@@ -1,6 +1,7 @@
 stages:
   build:
     buildTool: "mta"
+    buildToolVersion: "latest"
     mavenExecuteStaticCodeChecks: false
     npmExecuteLint: false
   release:
@@ -11,3 +12,4 @@ steps:
     nodeName: 'TEST'
     credentialsId: 'TMS_TRAIL_Account'
     customDescription: 'Pipeline Upload to TEST Node'
+
