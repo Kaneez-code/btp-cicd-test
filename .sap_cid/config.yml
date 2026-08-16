@@ -2,10 +2,10 @@ general:
   buildTool: "mta"
 
 stages:
-  Build:
+  build:
     mavenExecuteStaticCodeChecks: false
     npmExecuteLint: false
-  Release:
+  release:
     tmsUpload:
       nodeName: 'TEST'
       credentialsId: 'TMS_TRAIL_Account'
